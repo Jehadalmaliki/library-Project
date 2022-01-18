@@ -88,7 +88,7 @@
      padding:0% 0%;
      margin: 0% 0%;
      border-bottom: 1px solid #e5e9f2;
-     /* background-color: #e5e9f2;   */
+     background-color: #fff; 
     height: 43px;
     width: 1360px;
     justify-content: space-between;
@@ -326,7 +326,7 @@ nav .search .form button {
    
   }
    .box-container2 {
-    background-color: #eee;
+    background-color: #fff;
     margin-bottom: 0%;
     
     width: 1232px;
