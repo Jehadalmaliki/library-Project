@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/homestyle.css">
+    <link rel="stylesheet" href="css/catagorystyle.css">
+    <link rel="stylesheet" href="css/packagestyle.css">
 </head>
 <body>
    
@@ -18,7 +20,7 @@
                 <nav>
                     <div class="ul">
                 <ul>
-                    <li><a ><img src="img\svg\svgexport-1.svg">ادخل لحسابك </a></li>
+                    <li><a href="javascript:login('show');" ><img src="img\svg\svgexport-1.svg">ادخل لحسابك </a></li>
                     <li><a ><img src="img\svg\svgexport-2.svg">الرئيسيه</a></li>
                     <li><a ><img src="img\svg\svgexport-3.svg">من نحن</a></li>
                     <li><a ><img src="img\svg\svgexport-4.svg">اتصل بنا</a></li>
@@ -40,28 +42,123 @@
             </nav>
          </header>
          <!-- header end -->
+         <!-- section sing up start -->
+         <section class="contact" id="popupbox">
+          <div class="heading ">
+              
+              <div class="contact-content">
+                <div class="column right">
+            <div class="text">انشاء حساب</div>
+           <form method="post"  action="\">
+              <div class="fields">
+                  <div class="field num">
+                      <input type="number" id="number" placeholder="رقم الجوال" ><select>
+                          <option value="books">+967</option>
+                          <option value="html">+968</option>
+                          <option value="css">+968</option>
+                          <option value="php">+968</option>
+                          <option value="js">+964</option>
+                        </select>
+                        
+                      
+                  </div>
+                  <h1>سوف نرسل لك رمز التحقيق عن طريق رسالة نصية </h1>
+                  <div class="field code">
+                      <input type="text" id="code" placeholder="ارسال رمز التحقيق" >
+                      
+                  </div>
+                  <div class="field name1">
+                      <input type="text" id="secondName" placeholder="الاسم الاول" >
+                      
+                  </div>
+                  <div class="field name2">
+                      <input type="text" id="secondName" placeholder="الاسم الثاني" >
+                      
+                  </div>
+                  <div class="field email">
+                      <input type="email" id="emailAddress" placeholder="البريد اللكترونيا" >
+                    
+                  </div>
+                  <div class="field email2">
+                      <input type="email2" id="emailAddress" placeholder="تاكيد رمز البريد الالكتروني" >
+                    
+                  </div>
+                  <div class="field pass">
+                      <input type="password" id="password" placeholder="كلمة السر" >
+                    
+                  </div>
+                  <div class=" ckeck">
+                     <h1>اوافق على الشروط والاحكام</h1> <input type="checkbox" id="checkbox" placeholder="checkbox" >
+                     <h1>التسجيل للانضمام ل</h1> <input type="checkbox" id="checkbox" placeholder="checkbox" >  
+                  </div>
+      
+              
+          </div>
+          <div class="button-area">
+              <button type="submit" ><a href="javascript:login('hide');">"نشاء حساب</a></button>
+          </div>
+          <div class="text"><a href="javascript:login1('show');" onclick="document.getElementById('popupbox').style.display='none'">لديك حساب تسجيل الدخول</a></div>
+            </form>
+            </div>
+  
+         </div>
+         </section>
+         <!-- section sing up end -->
+         <!-- log in  start-->
+         <section class="contact1" id="popupbox1">
+          <div class="heading">
+              
+              <div class="contact-content">
+                <div class="column right">
+            <div class="text">تسجيل الدخول</div>
+           <form method="post"  action="\">
+              <div class="fields">
+                  
+                  <div class="field email">
+                      <input type="email" id="emailAddress" placeholder="البريد اللكترونيا" >
+                    
+                  </div>
+                 
+                  <div class="field pass">
+                      <input type="password" id="password" placeholder="كلمة السر" >
+                    
+                  </div>  
+          </div>
+          <div class="button-area2">
+              <button type="submit" >تسجيل الدخول</button>
+          </div>
+          <div class="text">لديك حساب</div>
+          <div class="button-area3">
+              <button type="submit" >انساء حساب</button>
+          </div>
+            </form>
+            </div>
+  
+         </div>
+         </section>
+         <!--  log in end-->
          <!-- section home start -->
          <section class="item3">
             <div class="slider-container">
                 <div class="slider">
                   <div class="slides">
                     <div id="slides__1" class="slide">
-                      <span class="slide__text"><img src="img\svg\slider_img.webp"  height=" 300px;" width=" 600px"></span>
+                      <span class="slide__text"><img src="img/sliderImgs/slider_img.webp"  height=" 300px;" width=" 1000px"></span>
                       <a class="slide__prev" href="#slides__4" title="Next"></a>
                       <a class="slide__next" href="#slides__2" title="Next"></a>
                     </div>
                     <div id="slides__2" class="slide">
-                      <span class="slide__text"><img src="img\p2.jpg" height=" 300px;" width=" 600px"></span>
+                      <span class="slide__text"><img src="img/sliderImgs/slider_img2.webp" height=" 300px;" width=" 1000px"></span>
                       <a class="slide__prev" href="#slides__1" title="Prev"></a>
                       <a class="slide__next" href="#slides__3" title="Next"></a>
                     </div>
                     <div id="slides__3" class="slide">
-                      <span class="slide__text"><img src="img\p3.jpg" height=" 300px;" width=" 600px"></span>
+                      <span class="slide__text"><img src="img/sliderImgs/slider_img3.jpg" height=" 300px;" width=" 1000px"></span>
                       <a class="slide__prev" href="#slides__2" title="Prev"></a>
                       <a class="slide__next" href="#slides__4" title="Next"></a>
                     </div>
                     <div id="slides__4" class="slide">
-                        <span class="slide__text"><img src="img\p2.jpg" height=" 300px;" width=" 600px"></span>
+                        <span class="slide__text"><img src="img/sliderImgs/slider_img4.webp" height=" 300px;" width=" 1000px"></span>
                       <a class="slide__prev" href="#slides__3" title="Prev"></a>
                       <a class="slide__next" href="#slides__1" title="Prev"></a>
                     </div>
@@ -74,12 +171,292 @@
                   </div>
                 </div>
               </div>
+            
+         </section> 
+          <!--home end  -->
+          <!-- catagory section start -->
+          <section class="item4">
+            <div class="services" id="services">
+              <h1 >
+                  تصفح حسب القسم
+              </h1>
+             <div class="box-container">
+          
+                  <div class="box">
+                    <img src="img\svg\svgexport-46.svg">
+                      <h3>دين</h3>
+                  </div>
               
-        </div>
-         </section>  
-        <section class="item2">Menu</section>
+                  <div class="box">
+                    <img src="img\svg\svgexport-42.svg">
+                      <h3>تاريخ</h3>
+                  </div>
+                  <div class="box">
+                    <img src="img\svg\svgexport-40.svg">
+                      <h3>روايات</h3>
+                  </div>
+                  <div class="box">
+                    <img src="img\svg\svgexport-43.svg">
+                      <h3>سياسة</h3>
+                      
+                  </div>
+                  <div class="box">
+                    <img src="img\svg\svgexport-45.svg">
+                      <h3>اقتصاد</h3>
+                     
+                  </div>
+                  <div class="box">
+                    <img src="img\svg\svgexport-47.svg">
+                      <h3>طبخ</h3>
+                      
+                  </div>
+                  <div class="box">
+                    <img src="img\svg\svgexport-48.svg">
+                      <h3>تربية</h3>
+                      
+                  </div>
+          
+              </div>
+          
+            </div>
+            <div class="Advertisment">
+              <div class="photos">
+                <img src="img/sliderImgs/slider_img.webp"  height=" 100px;" width=" 700px">
+                <img src="img/sliderImgs/slider_img.webp"  height=" 100px;" width=" 200px">
+                <img src="img/sliderImgs/slider_img.webp"  height=" 100px;" width=" 100px">
+                <img src="img/sliderImgs/slider_img.webp"  height=" 200px;" width=" 800px">
+              </div>
+            </div>
+
+          </section>
+
+          <!-- catagory section end -->
+          <!-- packages section start -->
+        <section class="item2">
+          <div class="packages" id="packages">
+          
+              <h1 >العروض  الحالية  <span id="demo"></span></h1>
+            <div class="box-container">
+          
+                  <div class="box">
+                    <img src="img/b2.jpg">
+                      <div class="content">
+                          <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                          <p>العادات الذرية لاكثر الناس نجاحا</p>
+                          <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                         <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                      </div>
+                  </div>
+          
+                  <div class="box">
+                    <img src="img/b3.jpg">
+                      <div class="content">
+                          <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                          <p>العادات الذرية لاكثر الناس نجاحا</p>
+                          <div class="price"> 80.00 <span>ريال سعودي</span> </div>
+                         <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                      </div>
+                  </div>
+                  <div class="box">
+                    <img src="img/book.jpg">
+                      <div class="content">
+                          <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                          <p>العادات الذرية لاكثر الناس نجاحا</p>
+                          <div class="price"> 70.00 <span>ريال سعودي</span> </div>
+                         <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                      </div>
+                  </div>
+
+                  <div class="box">
+                    <img src="img/b5.jpg">
+                      <div class="content">
+                          <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                          <p>العادات الذرية لاكثر الناس نجاحا</p>
+                          <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                         <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                      </div>
+                  </div>
+                  <div class="box">
+                    <img src="img/b4.jpg">
+                      <div class="content">
+                          <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                          <p>العادات الذرية لاكثر الناس نجاحا</p>
+                          <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                         <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                      </div>
+                  </div>
+              
+              </div>
+          </div>
+          <div class="packages" id="packages">
+          
+            <h1 > الكتب التاريخية</h1>
+          <div class="box-container">
         
-        <section class="item4">Right</section>
+                <div class="box">
+                  <img src="img/b2.jpg">
+                    <div class="content">
+                        <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                        <p>العادات الذرية لاكثر الناس نجاحا</p>
+                        <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                       <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                    </div>
+                </div>
+        
+                <div class="box">
+                  <img src="img/b3.jpg">
+                    <div class="content">
+                        <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                        <p>العادات الذرية لاكثر الناس نجاحا</p>
+                        <div class="price"> 80.00 <span>ريال سعودي</span> </div>
+                       <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                    </div>
+                </div>
+                <div class="box">
+                  <img src="img/book.jpg">
+                    <div class="content">
+                        <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                        <p>العادات الذرية لاكثر الناس نجاحا</p>
+                        <div class="price"> 70.00 <span>ريال سعودي</span> </div>
+                       <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                    </div>
+                </div>
+
+                <div class="box">
+                  <img src="img/b5.jpg">
+                    <div class="content">
+                        <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                        <p>العادات الذرية لاكثر الناس نجاحا</p>
+                        <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                       <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                    </div>
+                </div>
+                <div class="box">
+                  <img src="img/b4.jpg">
+                    <div class="content">
+                        <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                        <p>العادات الذرية لاكثر الناس نجاحا</p>
+                        <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                       <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="packages" id="packages">
+          
+          <h1 >الكتب الدينية</h1>
+        <div class="box-container">
+      
+              <div class="box">
+                <img src="img/b2.jpg">
+                  <div class="content">
+                      <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                      <p>العادات الذرية لاكثر الناس نجاحا</p>
+                      <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                     <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                  </div>
+              </div>
+      
+              <div class="box">
+                <img src="img/b3.jpg">
+                  <div class="content">
+                      <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                      <p>العادات الذرية لاكثر الناس نجاحا</p>
+                      <div class="price"> 80.00 <span>ريال سعودي</span> </div>
+                     <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                  </div>
+              </div>
+              <div class="box">
+                <img src="img/book.jpg">
+                  <div class="content">
+                      <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                      <p>العادات الذرية لاكثر الناس نجاحا</p>
+                      <div class="price"> 70.00 <span>ريال سعودي</span> </div>
+                     <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                  </div>
+              </div>
+
+              <div class="box">
+                <img src="img/b5.jpg">
+                  <div class="content">
+                      <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                      <p>العادات الذرية لاكثر الناس نجاحا</p>
+                      <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                     <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                  </div>
+              </div>
+              <div class="box">
+                <img src="img/b4.jpg">
+                  <div class="content">
+                      <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                      <p>العادات الذرية لاكثر الناس نجاحا</p>
+                      <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                     <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                  </div>
+              </div>
+          
+          </div>
+      </div>
+      <div class="packages" id="packages">
+          
+        <h1 >الروايات</h1>
+      <div class="box-container">
+    
+            <div class="box">
+              <img src="img/b2.jpg">
+                <div class="content">
+                    <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                    <p>العادات الذرية لاكثر الناس نجاحا</p>
+                    <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                   <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                </div>
+            </div>
+    
+            <div class="box">
+              <img src="img/b3.jpg">
+                <div class="content">
+                    <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                    <p>العادات الذرية لاكثر الناس نجاحا</p>
+                    <div class="price"> 80.00 <span>ريال سعودي</span> </div>
+                   <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                </div>
+            </div>
+            <div class="box">
+              <img src="img/book.jpg">
+                <div class="content">
+                    <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                    <p>العادات الذرية لاكثر الناس نجاحا</p>
+                    <div class="price"> 70.00 <span>ريال سعودي</span> </div>
+                   <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                </div>
+            </div>
+
+            <div class="box">
+              <img src="img/b5.jpg">
+                <div class="content">
+                    <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                    <p>العادات الذرية لاكثر الناس نجاحا</p>
+                    <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                   <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                </div>
+            </div>
+            <div class="box">
+              <img src="img/b4.jpg">
+                <div class="content">
+                    <h3> <img src="img\svg\svgexport-57.svg">كتاب الالكتروني </h3>
+                    <p>العادات الذرية لاكثر الناس نجاحا</p>
+                    <div class="price"> 90.00 <span>ريال سعودي</span> </div>
+                   <div class="btn"><a href="#" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+        </section>
+        
+        
         <section class="footer">
             <div class="box-container">
                 <div class="box">
@@ -171,7 +548,7 @@
                 </div>
           </section>
       
-
+          
 </body>
-<script src="script.js"></script>
+<script src="script/script.js"></script>
 </html>
