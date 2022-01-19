@@ -534,9 +534,9 @@ border: 0.4rem solid #dadfde;
   /* log in */
   /* contact */
   .contact1{
+    box-sizing: border-box;
     margin-top: 20px;
-
-    background-color: #e7e3e3;   
+       background-color: #e7e3e3;   
 position: absolute; 
 z-index: 9;  
 visibility: hidden; 
@@ -550,7 +550,7 @@ border: 0.4rem solid #dadfde;
         margin-top: 2rem;        
     width: 688px;
     padding-right: 0px;
-
+    box-sizing: border-box;
 
        
       }
@@ -631,11 +631,14 @@ border: 0.4rem solid #dadfde;
   background:  #2c3e50;;
   border: 2px solid  #2c3e50;
   transition: all 0.3s ease;
- padding-right: 1px;
- padding-left: 31px;
- width: 146px !important;
- height: 36px;
 
+
+
+ padding-left: 1px;
+ height: 41px;
+ padding-right: 0px;
+ width: 197px;
+ margin-left: 0px;
 
 }
 .right form .button-area button:hover{
@@ -646,8 +649,6 @@ border: 0.4rem solid #dadfde;
 .right form .button-area2 button{
   color: #fff;
   display: block;
-  width: 160px!important;
-  height: 45px;
   outline: none;
   font-size: 18px;
   font-weight: 500;
@@ -657,8 +658,7 @@ border: 0.4rem solid #dadfde;
   background:  #eb1809;
   border: 2px solid  #eb1809;
   transition: all 0.3s ease;
- padding-left: 26rem;
- padding-right: 26rem;
+  padding-left: 1px;height: 41px;padding-right: 0px;width: 197px;margin-left: 0px;
 }
 .right form .button-area2 button:hover{
   color: #e7eafb;
