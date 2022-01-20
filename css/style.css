@@ -103,7 +103,7 @@
    }
 ul li{
   
-  flex: 1;
+  /* flex: 1; */
   font-family: 'Tajawal', 'Poppins', 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -111,7 +111,7 @@ ul li{
     list-style: none;
     text-align: center;
     padding: 10px 0px;
-    width: 150px;
+    width: fit-content;
     border-right: 1px solid #e5e9f2;
     font-size: 1rem;
     margin: 0%;
@@ -136,7 +136,7 @@ nav ul li a{
 nav .search{
     
     display: flex;
-    /* justify-content:space-between; */
+    justify-content:space-between;
     padding-top: 43px;
     padding-bottom: 0px;
     z-index: -1;

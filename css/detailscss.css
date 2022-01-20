@@ -1,14 +1,19 @@
 
 .services h1{
-    font-size: 3rem;
-    text-align: right;
+    font-size: 1rem;
     margin-inline-start:45px;
+    
     
     
 
 }
+ul{
+    
+    width: 542px;
+
+}
 ul.breadcrumb {
-    padding: 10px 16px;
+    padding: 10px 10px;
     list-style: none;
     background-color: #eee;
   }
@@ -17,7 +22,7 @@ ul.breadcrumb {
     font-size: 18px;
   }
   ul.breadcrumb li+li:before {
-    padding: 8px;
+    padding: 2px;
     color: black;
     content: "/\00a0";
   }
@@ -62,18 +67,4 @@ ul.breadcrumb {
   .services .box-container .box:hover{
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   }
-  /* Advertisment */
-  .Advertisment{
-      
-    margin-top: 8px;
-    margin-right: 36px;
-    margin-bottom: 8px;
-    margin-left: 32px;
- }
- .Advertisment .photo{
-    display: flex;
-    flex:1 1 40rem;
-    padding:1rem;
-    
 
- }

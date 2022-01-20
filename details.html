@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html  lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homestyle.css">
+    <link rel="stylesheet" href="css/detailscss.css">
+    
+</head>
+<body>
+   
+    <div class="grid-container">
+        <header class="item1">
+                <nav>
+                    <div class="ul">
+                <ul>
+                    <li><a href="javascript:login('show');" ><img src="img\svg\svgexport-1.svg">ادخل لحسابك </a></li>
+                    <li><a ><img src="img\svg\svgexport-2.svg">الرئيسيه</a></li>
+                    <li><a ><img src="img\svg\svgexport-3.svg">من نحن</a></li>
+                    <li><a ><img src="img\svg\svgexport-4.svg">اتصل بنا</a></li>
+                    <li><a ><img src="img\svg\svgexport-5.svg">المساعدة</a></li>
+                    <li><a ><img src="img\svg\svgexport-24.svg">صحيفة الاسبوعية</a></li>
+                    <li><a ><img src="img\svg\svgexport-28.svg">اليمن</a></li>
+                    <li><a  ><img src="img\svg\svgexport-14.svg">English</a></li>    
+                </ul>
+            </div>
+             
+             <div class="search" id="search">
+                <div class ="icon1"> <img src="img\svg\img.png" ></div>
+                 <div class="form"><form><input type="search"  placeholder="البحث">
+                    <button type="submit"><i class="fa fa-search"></i></button> 
+                </form></div>
+                
+                 <div class ="icon"> <img src="img\svg\svgexport-50.svg"></div>
+             </div>
+            </nav>
+         </header>
+         <!-- header end -->
+         <!-- section sing up start -->
+         <section class="contact" id="popupbox">
+          <div class="heading ">
+              
+              <div class="contact-content">
+                <div class="column right">
+            <div class="text">انشاء حساب</div>
+           <form method="post"  action="\">
+              <div class="fields">
+                  <div class="field num">
+                      <input type="number" id="number" placeholder="رقم الجوال" ><select>
+                          <option value="books">+967</option>
+                          <option value="html">+968</option>
+                          <option value="css">+968</option>
+                          <option value="php">+968</option>
+                          <option value="js">+964</option>
+                        </select>
+                        
+                      
+                  </div>
+                  <h1>سوف نرسل لك رمز التحقيق عن طريق رسالة نصية </h1>
+                  <div class="field code">
+                      <input type="text" id="code" placeholder="ارسال رمز التحقيق" >
+                      
+                  </div>
+                  <div class="field name1">
+                      <input type="text" id="secondName" placeholder="الاسم الاول" >
+                      
+                  </div>
+                  <div class="field name2">
+                      <input type="text" id="secondName" placeholder="الاسم الثاني" >
+                      
+                  </div>
+                  <div class="field email">
+                      <input type="email" id="emailAddress" placeholder="البريد اللكترونيا" >
+                    
+                  </div>
+                  <div class="field email2">
+                      <input type="email2" id="emailAddress" placeholder="تاكيد رمز البريد الالكتروني" >
+                    
+                  </div>
+                  <div class="field pass">
+                      <input type="password" id="password" placeholder="كلمة السر" >
+                    
+                  </div>
+                  <div class=" ckeck">
+                     <h1>اوافق على الشروط والاحكام</h1> <input type="checkbox" id="checkbox" placeholder="checkbox" >
+                     <h1>التسجيل للانضمام ل</h1> <input type="checkbox" id="checkbox" placeholder="checkbox" >  
+                  </div>
+      
+              
+          </div>
+          <div class="button-area">
+              <button type="submit" ><a href="javascript:login('hide');">"نشاء حساب</a></button>
+          </div>
+          <div class="text"><a href="javascript:login1('show');" onclick="document.getElementById('popupbox').style.display='none'">لديك حساب تسجيل الدخول</a></div>
+            </form>
+            </div>
+  
+         </div>
+         </section>
+         <!-- section sing up end -->
+         <!-- log in  start-->
+         <section class="contact1" id="popupbox1">
+          <div class="heading">
+              
+              <div class="contact-content1">
+                <div class="column right">
+            <div class="text">تسجيل الدخول</div>
+           <form method="post"  action="\">
+              <div class="fields">
+                  
+                  <div class="field email">
+                      <input type="email" id="emailAddress" placeholder="البريد اللكترونيا" >
+                    
+                  </div>
+                 
+                  <div class="field pass">
+                      <input type="password" id="password" placeholder="كلمة السر" >
+                    
+                  </div>  
+          </div>
+          <div class=" field input2 ">
+              <input type="submit" value="تسجيل الدخول">
+          </div>
+          <div class="text">لديك حساب</div>
+          <div class=" field ">
+              <input type="submit" value="انشاء حساب جديد" >
+          </div>
+            </form>
+            </div>
+  
+         </div>
+         </section>
+         <!--  log in end-->
+         <!-- section home start -->
+         <section class="item3">
+            <div class="slider-container">
+                <div class="slider">
+                  <div class="slides">
+                    <div id="slides__1" class="slide">
+                      <span class="slide__text"><img src="img/sliderImgs/slider_img.webp"  height=" 300px;" width=" 1000px"></span>
+                      <a class="slide__prev" href="#slides__4" title="Next"></a>
+                      <a class="slide__next" href="#slides__2" title="Next"></a>
+                    </div>
+                    <div id="slides__2" class="slide">
+                      <span class="slide__text"><img src="img/sliderImgs/slider_img2.webp" height=" 300px;" width=" 1000px"></span>
+                      <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                      <a class="slide__next" href="#slides__3" title="Next"></a>
+                    </div>
+                    <div id="slides__3" class="slide">
+                      <span class="slide__text"><img src="img/sliderImgs/slider_img3.jpg" height=" 300px;" width=" 1000px"></span>
+                      <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                      <a class="slide__next" href="#slides__4" title="Next"></a>
+                    </div>
+                    <div id="slides__4" class="slide">
+                        <span class="slide__text"><img src="img/sliderImgs/slider_img4.webp" height=" 300px;" width=" 1000px"></span>
+                      <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                      <a class="slide__next" href="#slides__1" title="Prev"></a>
+                    </div>
+                  </div>
+                  <div class="slider__nav">
+                    <a class="slider__navlink" href="#slides__1"></a>
+                    <a class="slider__navlink" href="#slides__2"></a>
+                    <a class="slider__navlink" href="#slides__3"></a>
+                    <a class="slider__navlink" href="#slides__4"></a>
+                  </div>
+                </div>
+              </div>
+            
+         </section> 
+          <!--home end  -->
+          <!-- catagory section start -->
+          <section class="item4">
+          
+            <div class="services" id="services">
+                
+                <h2>القائمة الرئيسة</h2>
+            <ul class="breadcrumb">
+            <li><a href="#">الرئيسة</a></li>
+           <li><a href="#">الكتب العربية</a></li>
+           <li><a href="#"> كتب الكترونية</a></li>
+           <li>كتاب الالكتروني)لانك الله)</li>
+            </ul>  
+              
+            
+
+          </section>
+
+          <!-- catagory section end -->
+          <!-- packages section start -->
+        <section class="item2">
+          
+        </section>
+        
+        
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3> انضم الي نشرتنا البريدية</h3>
+                    
+                    <div class="form">
+                      <form><input type="email" placeholder="ادخل بريدك الاكتروني"><button type="submit">اشتراك</button></form>
+                    </div>
+
+                     
+                  </div>
+                  <div class="box">
+                    <h3>خدمه العملاء</h3>
+                    <h1></h1>
+                    <a href="#">مبيعلت الشركات</a>
+                    <a href="#">الاسئلة المتكررة</a>
+                    <a href="#">دليل التسوق</a>
+                    <a href="#"> مواقع المعارض</a>
+                    <a href="#"> سياسة الضمان</a>
+                    <a href="#">سياسة الاسترجاع والاستبدال </a>
+                    <a href="#"> اتصل بنا</a>
+                    <a href="#">920000089 </a>
+                    
+                </div>
+                <div class="box">
+                    <h3>خدمات جرير</h3>
+                    <h1></h1>
+                    <a href="#">خدمه تقسيط المشتريات</a>
+                    <a href="#">خدمات مابعد البيع</a>
+                    <a href="#">خدمة الحماية الشاملة</a>
+                    <a href="#">حماية اجهزة ابل</a>
+                    <a href="#">بطاقة خصم جرير</a>
+                    <a href="#">بطاقة جرير للهدايا</a>
+
+                </div>
+                 
+              
+                <div class="box">
+                    <h3>روابط سريعة</h3>
+                    <h1></h1>
+                    <a href="#">اصدارات جرير</a>
+                    <a href="#">قارى جرير</a>
+                    <a href="#">قارى جرير</a>
+                    <a href="#">قارى جرير</a>
+                </div>
+                  <div class="box">
+                      <h3>عن جرير</h3>
+                      <h1></h1>
+                      <a href="#">من نحن</a>
+                      <a href="#">الحوكمة</a>
+                      <a href="#">علاقات المستثمرين والتقارير</a>
+                  </div>
+                 
+                  
+          
+              </div>
+              <div class="box-container1">
+                
+                <div class="box">
+                    <h3>روابط سريعة</h3>
+                      <h1></h1>
+                    <a href="#"> <img src="img\svg\svgexport-59.svg"></a>
+                    <a href="#"> <img src="img\svg\svgexport-60.svg"></a>
+                    <a href="#"><img src="img\svg\svgexport-61.svg"></i></a>
+                    <a href="#"> <img src="img\svg\svgexport-62.svg"></a>
+                    <a href="#"> <img src="img\svg\svgexport-63.svg"></a>
+                    <a href="#"><img src="img\svg\svgexport-64.svg"></a>
+                    <a href="#"><img src="img\svg\svgexport-65.svg"></a>
+                </div>
+                
+            </div>
+          
+              <div class="box-container2">
+                
+                    <div class="box">
+                        <h3></h3>
+                        
+                        <a href="#"> <img src="img\svg\svgexport-66.svg"></a>
+                        <a href="#"> <img src="img\svg\svgexport-67.svg"></a>
+                        <a href="#"><img src="img\svg\svgexport-68.svg"></i></a>
+                        <a href="#"> <img src="img\svg\svgexport-69.svg"></a>
+                        <a href="#"> <img src="img\svg\svgexport-70.svg"></a>
+                        <a href="#"><img src="img\svg\svgexport-71.svg"></i></a>
+                    </div>
+                    <div class="box">
+                        <h3>سياسة الخصوصية|شروط الخدمة</h3>
+                        <p>جميع الحقوق محفوظة لمكتبة جرير © 2015. س.ت. 1010032264. اونلاين س.ت. 1010654213</p>
+                    </div>
+                </div>
+          </section>
+      
+          
+</body>
+
+</html>
