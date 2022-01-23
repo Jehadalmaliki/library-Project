@@ -130,6 +130,7 @@ ul.breadcrumb {
   }
   .packages .box-container .box .content .bottom{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
   .packages .box-container .box .content .bottom .price{
