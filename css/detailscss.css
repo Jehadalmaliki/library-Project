@@ -82,18 +82,67 @@ ul.breadcrumb {
     color:orange;
   }
   
-  .packages .box-container .box .content .price{
-    font-size: 2rem;
-    color:red;
-    padding-top: 1rem;
-  }
-  
   .packages .box-container .box .content .price span{
     color:#666;
     font-size: 1.5rem;
     text-decoration: line-through;
   }
+  /* لانك انت اللهbox b */
+  .packages .box-container .b{
+    box-shadow: 0 0rem 0rem rgba(0,0,0,.1); 
+    width: 600px
+  }
+  .packages .box-container .b .content{
+    display: flex;
+    flex-direction: column; 
+    width: 440px;
+
+  }
+  .packages .box-container .box .content .right1 {
+    text-align: right;
+    
+  }
+  .packages .box-container .box .content .right1 p{
+    color:#0275d8;
+    line-height: 12px;
+    
+  }
+  .packages .box-container .box .content .right1 .price {
+    font-size: 2rem;
+    color:red;
+    padding-top: 1rem;
+    line-height: 2px;
+    font-weight: 300;
+    
+  }
+  .packages .box-container .box .content .left1{
+    text-align: left;
+    line-height: 12px;
+    font-size: 1.4rem;
+  }
+  .packages .box-container .box .content .left1 h4{
+    color: #0275d8;
+    font-size: 1.4rem;
+  }
+  .packages .box-container .box .content .h{
+    text-align: right;
+    font-size: 1.5rem;
+    color: #999;
+  }
+  .packages .box-container .box .content .bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+  .packages .box-container .box .content .bottom .price{
+    color: red;
+    font-size: 1.5rem;
+  }
+  .packages .box-container .box .content .bottom  p{
+    font-size: 0.9rem;
+    line-height: 3px;
+  }
   
+
   /* photo model */
   
 * {
