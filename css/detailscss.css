@@ -254,6 +254,65 @@ ul.breadcrumb {
 
 
 }
+.description{
+   
+  border-bottom:1px solid rgb(219, 216, 216);
+  text-align: right;
+  font-size: 2rem;
+  color: #666;
+  margin-top: 7rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 2rem;
+}
+/* المواصفات */
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+.parent p{
+  text-align: right;
+  font-size: 3rem;
+}
+.parent .cell{
+  border-bottom:1px solid rgb(219, 216, 216);
+  margin-right: 3rem;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+.parent .cell .lefta{
+  width:20%; 
+}
+.parent .cell .righta{
+  font-weight: 300px;
+}
+.parent .cell .s {
+  text-align: left;
+  width: 70%;
+  font-size: 1.4rem;
+} 
+.parent input{
+  color: #fff;
+  background-color: #0275d8;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 2rem;
+  border-radius: 3px;
+  width:90px;
+}
+.parent .cell .d h1{
+  font-size: 2rem;
+  color:#666
+  
+}
+.parent .cell .d p{
+  font-size: 2rem;
+  font-weight: 300px;
+  
+}
 
   /* photo model */
   
