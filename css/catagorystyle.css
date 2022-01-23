@@ -77,3 +77,34 @@ ul.breadcrumb {
     
 
  }
+ @media (max-width: 768px) {
+  .services {
+    width: 20px;
+    height: 239px;  
+  }
+  .services h1 {
+    font-size: 1rem;
+    width: 104px;
+
+  }
+  .services .box-container{
+   padding-right: 8px;
+
+  }
+  .services .box-container .box{
+    width: 50px;
+  }
+  .services .box-container .box img{
+    
+    width: 49px;
+    height: 41px;
+
+  }  
+  .Advertisment{
+    display: none;
+    height: 0px;}
+  .item4{
+    height: 145px;
+
+  }
+  }

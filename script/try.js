@@ -1,17 +1,17 @@
 const get_one = (element) => document.querySelector(element);
-const product_list = get_one('#product_list')
+const product_list = get_one('#product')
 const damoData = [
     {
         id: 0,
         name: 'لانك الله',
         title: 'كتاب الكتروني',
-        price: "19.22",
+        price: "3.22",
         img: "img/b3.jpg",
     },
     {
         id: 0,
         title: 'كتاب الكتروني',
-        name: 'كلي ونامي ',
+        name: ' لماولا ',
         price: "19.22",
         img: "img/b3.jpg",
     },
@@ -20,21 +20,21 @@ const damoData = [
         title: 'كتاب الكتروني',
         name: ' نون النسوه',
         price: "19.22",
-        img: "img/b3.jpg",
+        img: "img/b4.jpg",
     },
     {
         id: 0,
         title: 'كتاب الكتروني',
-        name: 'تخاريف  ',
+        name: 'الحياة والحب  ',
         price: "19.22",
         img: "img/b3.jpg",
     },
     {
         id: 0,
         title: 'كتاب الكتروني',
-        name: 'علم النفس  ',
+        name: 'كن انت  ',
         price: "19.22",
-        img: "img/b3.jpg",
+        img: "img/b2.jpg",
     },
     {
         id: 0,
@@ -54,10 +54,10 @@ const _fetchData = (arr) => {
         
         <img src=${element.img}>
           <div class="content">
-              <h3> <img src="img\svg\svgexport-57.svg">  ${element.title}</h3>
+              <h3> <img src="img/svg/svgexport-57.svg">  ${element.title}</h3>
               <p class ="book">   ${element.name} </p>
               <div class="price">  ${element.price} <span>ريال سعودي</span> </div>
-             <div class="btn"><a href="cart.html" class="btn"><img src="img\svg\svgexport-56.svg"><img src="img\svg\svgexport-21.svg"><img src="img\svg\svgexport-55.svg"></a></div> 
+             <div class="btn"><a href="cart.html" class="btn"><img src="img/svg/svgexport-56.svg"><img src="img/svg/svgexport-21.svg"><img src="img/svg/svgexport-55.svg"></a></div> 
              <p>ينتهي العرض</p><span id="demo"> </span>
           </div>
       `;

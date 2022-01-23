@@ -1,19 +1,20 @@
+// menu
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('ul');
+menu.onclick = () =>{
+
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+}
+  
 
 // Popup window code
-function login(showhide){
-	if(showhide == "show"){
-		document.getElementById('popupbox').style.visibility="visible";
-	}else if(showhide == "hide"){
-		document.getElementById('popupbox').style.visibility="hidden"; 
-	}
-	}
-	function login1(showhide){
-	if(showhide == "show"){
-		document.getElementById('popupbox1').style.visibility="visible";
-	}else if(showhide == "hide"){
-		document.getElementById('popupbox1').style.visibility="hidden"; 
-	}
-	}
+
 //time cutdown
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 21, 2022 15:37:25").getTime();
@@ -164,11 +165,11 @@ var x4 = setInterval(function() {
 }, 1000);
 // photo model
 function openModal() {
-  document.getElementById("myModal").style.display = "block";
+  document.getElementById("myModal3").style.display = "block";
 }
 
 function closeModal() {
-  document.getElementById("myModal").style.display = "none";
+  document.getElementById("myModal3").style.display = "none";
 }
 
 var slideIndex = 1;
@@ -202,4 +203,5 @@ function showSlides(n) {
 
 // search bar
 // JavaScript code
-
+// log in model
+// Get the modal

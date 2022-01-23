@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/homestyle.css">
     <link rel="stylesheet" href="css/detailscss.css">
-    
 </head>
 <body>
    
     <div class="grid-container">
         <header class="item1">
+          <div id="menu-icon" class="fas fa-bars"></div>
                 <nav>
                     <div class="ul">
                 <ul>
-                    <li><a href="javascript:login('show');" ><img src="img\svg\svgexport-1.svg">ادخل لحسابك </a></li>
+                    <li><a id="myBtn" ><img src="img\svg\svgexport-1.svg">ادخل لحسابك وسجل الان </a></li>
                     <li><a ><img src="img\svg\svgexport-2.svg">الرئيسيه</a></li>
                     <li><a ><img src="img\svg\svgexport-3.svg">من نحن</a></li>
                     <li><a ><img src="img\svg\svgexport-4.svg">اتصل بنا</a></li>
@@ -37,105 +37,103 @@
                     <button type="submit"><i class="fa fa-search"></i></button> 
                 </form></div>
                 
-                 <div class ="icon"> <img src="img\svg\svgexport-50.svg"></div>
+                 <div class ="icon"> <a href="cart.html"><img src="img\svg\svgexport-50.svg"></a></div>
              </div>
             </nav>
          </header>
          <!-- header end -->
          <!-- section sing up start -->
-         <section class="contact" id="popupbox">
-          <div class="heading ">
-              
-              <div class="contact-content">
-                <div class="column right">
-            <div class="text">انشاء حساب</div>
-           <form method="post"  action="\">
-              <div class="fields">
-                  <div class="field num">
-                      <input type="number" id="number" placeholder="رقم الجوال" ><select>
-                          <option value="books">+967</option>
-                          <option value="html">+968</option>
-                          <option value="css">+968</option>
-                          <option value="php">+968</option>
-                          <option value="js">+964</option>
-                        </select>
-                        
-                      
-                  </div>
-                  <h1>سوف نرسل لك رمز التحقيق عن طريق رسالة نصية </h1>
-                  <div class="field code">
-                      <input type="text" id="code" placeholder="ارسال رمز التحقيق" >
-                      
-                  </div>
-                  <div class="field name1">
-                      <input type="text" id="secondName" placeholder="الاسم الاول" >
-                      
-                  </div>
-                  <div class="field name2">
-                      <input type="text" id="secondName" placeholder="الاسم الثاني" >
-                      
-                  </div>
-                  <div class="field email">
-                      <input type="email" id="emailAddress" placeholder="البريد اللكترونيا" >
-                    
-                  </div>
-                  <div class="field email2">
-                      <input type="email2" id="emailAddress" placeholder="تاكيد رمز البريد الالكتروني" >
-                    
-                  </div>
-                  <div class="field pass">
-                      <input type="password" id="password" placeholder="كلمة السر" >
-                    
-                  </div>
-                  <div class=" ckeck">
-                     <h1>اوافق على الشروط والاحكام</h1> <input type="checkbox" id="checkbox" placeholder="checkbox" >
-                     <h1>التسجيل للانضمام ل</h1> <input type="checkbox" id="checkbox" placeholder="checkbox" >  
-                  </div>
-      
-              
-          </div>
-          <div class="button-area">
-              <button type="submit" ><a href="javascript:login('hide');">"نشاء حساب</a></button>
-          </div>
-          <div class="text"><a href="javascript:login1('show');" onclick="document.getElementById('popupbox').style.display='none'">لديك حساب تسجيل الدخول</a></div>
-            </form>
-            </div>
-  
-         </div>
-         </section>
+         <div id="myModal2" class="modal2">
+
+          <!-- Modal content -->
+          <div class="modal-content2">
+            <span class="close2">&times;</span>
+            <div class="text3">        انشاء حساب  </div>
+                   <form method="post"  action="\">
+                      <div class="fields">
+                        <div class="field num">
+                          <input type="text" id="number" placeholder="رقم الجوال" >
+                          <select>
+                              <option value="books">+967</option>
+                              <option value="html">+968</option>
+                              <option value="css">+968</option>
+                              <option value="php">+968</option>
+                              <option value="js">+964</option>
+                            </select>    
+                      </div>
+                      <div class="text1">سوف نرسل لك رمز التحقيق عن طريق رسالة نصية </div>
+                          <div class="field code">
+                              <input type="text" id="code" placeholder="ارسال رمز التحقيق" >
+                              
+                          </div>
+                          <div class="field name1">
+                              <input type="text" id="secondName" placeholder="الاسم الاول" >
+                              
+                          </div>
+                          <div class="field name2">
+                              <input type="text" id="secondName" placeholder="الاسم الثاني" >
+                              
+                          </div>
+                          <div class="field email">
+                          <input type="email" id="emailAddress" placeholder="البريد اللكترونيا" >
+                          </div>
+                          <div class="field email2">
+                            <input type="email2" id="emailAddress" placeholder="تاكيد رمز البريد الالكتروني" >
+                          
+                            </div>
+                     
+                          <div class="field pass">
+                          <input type="password" id="password" placeholder="كلمة السر" >
+                        </div>  
+                     </div>
+                     <div class=" field ckeck">
+                     <div class="text"><input type="checkbox" id="checkbox" placeholder="checkbox" >اوافق على الشروط والاحكام</div> 
+                       <div class="text">  <input type="checkbox" id="checkbox" placeholder="checkbox" >على الشروط والاحكام</div> 
+                   </div>
+                     <div class="fields">
+                          <div class=" field input2 ">
+                          <input type="submit" value=" انشاء حساب">
+                          </div>
+                          
+                      </div>
+                   </form>
+           </div>
+        
+        </div>
          <!-- section sing up end -->
          <!-- log in  start-->
-         <section class="contact1" id="popupbox1">
-          <div class="heading">
-              
-              <div class="contact-content1">
-                <div class="column right">
+         <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
             <div class="text">تسجيل الدخول</div>
-           <form method="post"  action="\">
+           <form method="post"  >
               <div class="fields">
-                  
+              
                   <div class="field email">
-                      <input type="email" id="emailAddress" placeholder="البريد اللكترونيا" >
-                    
+                  <input type="email" id="emailAddress" placeholder="البريد الالكتروني" >
                   </div>
-                 
+             
                   <div class="field pass">
-                      <input type="password" id="password" placeholder="كلمة السر" >
-                    
-                  </div>  
-          </div>
-          <div class=" field input2 ">
-              <input type="submit" value="تسجيل الدخول">
-          </div>
-          <div class="text">لديك حساب</div>
-          <div class=" field ">
-              <input type="submit" value="انشاء حساب جديد" >
-          </div>
-            </form>
-            </div>
-  
-         </div>
-         </section>
+                  <input type="password" id="password" placeholder="كلمة السر" >
+                </div>  
+             </div>
+             <div class="fields">
+                  <div class=" field input2 ">
+                  <input type="submit" value="تسجيل الدخول">
+                  </div>
+                   <div class="text" >ليس لديك حساب</div>
+              <div class=" field input3 ">  
+                
+                <div class="text" id ="myBtn2" >انشاءحساب جديد</div>
+</div>
+              </div>
+           </form>
+   </div>
+
+</div>
          <!--  log in end-->
          <!-- section home start -->
          <section class="item3">
@@ -176,7 +174,6 @@
           <!--home end  -->
           <!-- catagory section start -->
           <section class="item4">
-          
             <div class="services" id="services">
                 
                 <h2>القائمة الرئيسة</h2>
@@ -191,21 +188,22 @@
              
           
               <div class="box-container">
-                    <!-- <img src="img/b4.jpg"> -->
                      
-                    <div class="box">
+                    <div class="box " id="border">
                     
+                        <img src="img/b4.jpg">
                       <div class="content">
                         <div class="row">
                           <div class="column">
                             <img src="img/b4.jpg"  style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
                           </div>
+                          
                         
                         </div>
                         
-                        <div id="myModal" class="modal">
-                          <span class="close cursor" onclick="closeModal()">&times;</span>
-                          <div class="modal-content">
+                        <div id="myModal3" class="modal3">
+                          <span class="close3 cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content3">
                         
                             <div class="mySlides">
                               <div class="numbertext">1 / 4</div>
@@ -285,10 +283,7 @@
           <!-- catagory section end -->
           <!-- packages section start -->
         <section class="item2">
-          
-        <!-- packages section ends -->
-        </section>
-        
+          </section>
         
         <section class="footer">
             <div class="box-container">
@@ -310,8 +305,8 @@
                     <a href="#"> مواقع المعارض</a>
                     <a href="#"> سياسة الضمان</a>
                     <a href="#">سياسة الاسترجاع والاستبدال </a>
-                    <a href="#"> اتصل بنا</a>
-                    <a href="#">920000089 </a>
+                    <a href="#"> <اتصل بنا</a>
+                    <a href="#"><b style="color: aliceblue;">920000089</b> </a>
                     
                 </div>
                 <div class="box">
@@ -341,6 +336,12 @@
                       <a href="#">من نحن</a>
                       <a href="#">الحوكمة</a>
                       <a href="#">علاقات المستثمرين والتقارير</a>
+                      <a href="#">  الاستدامة</a>
+                      <a href="#">  الاخبار</a>
+                      <h3> فرص العمل</h3>
+                      <h1></h1>
+
+                     
                   </div>
                  
                   
@@ -380,8 +381,8 @@
                     </div>
                 </div>
           </section>
-      
           
 </body>
 <script src="script/script.js"></script>
+<script src="script/login.js"></script>
 </html>

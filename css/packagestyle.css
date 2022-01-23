@@ -42,18 +42,22 @@ display: list-item;
     margin-block-start: 3rem;
     display: flex;
     flex-wrap: nowrap;
-    gap:0.4rem;
+    gap:.7rem;
     /* width:50%; */
   }
   
   .packages .box-container .box{
     flex:1 1 30rem;
     border-radius: .5rem;
-    /* overflow: hidden; */
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
     width:30%;
   }
-  
+  .packages .box-container :hover{
+   border: 1px solid red;
+  } 
+  .packages .box-container .box :hover{
+    border: 0px solid rgb(82, 68, 68);
+  }
   .packages .box-container .box img{
     height: 25rem;
     width:70%;
@@ -103,3 +107,13 @@ display: list-item;
     width: 3.5rem;
 }
 
+
+@media (max-width: 768px) {
+  .packages .box-container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin-right: 10rem;
+  }
+  
+}
