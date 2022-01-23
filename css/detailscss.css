@@ -45,7 +45,7 @@ ul.breadcrumb {
   }
   
   .packages .box-container .box{
-    flex:1 1 40rem;
+    flex:1 1 30rem;
     border-radius: .5rem; 
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1); 
   }
@@ -141,6 +141,118 @@ ul.breadcrumb {
     line-height: 3px;
   }
   
+/* السلةbox3 */
+.packages .box-container .c{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0rem 0rem rgba(0,0,0,.1);
+ 
+  
+}
+.packages .box-container .c .continer{
+  width: 330px;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+.packages .box-container .box .top{
+  text-align: right;
+  border-right: 6px solid orange;
+  background-color: palegoldenrod;
+  line-height: 19px;
+  width: 300px;
+}
+.packages .box-container .box .top p{
+  font-size: 2rem;
+  font-weight: 300;
+}
+.packages .box-container .box .top span{
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+.packages .box-container .box .top h1{
+  color:blue;
+  font-size: 1.7rem;
+   margin-right: 0px;
+}
+
+.packages .box-container .box .form{
+  display: flex;
+  height: 41px;
+  margin-top: 11px;
+  margin-bottom: 22px;
+  width: 300px;
+  position: relative;
+
+}
+.packages .box-container .box .form select option{
+  
+  height: 30px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  width: 69px;
+}
+.packages .box-container .box .form input{
+  height: 40px;
+  width: 200px;
+  padding-top: 8px;
+  padding-bottom: 40px;
+  color:#eee;
+  background-color:#d4070e;
+  font-size: 2rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius: 4px;
+
+}
+.packages .box-container .box .form img{
+  position: absolute;
+  text-align: left;
+  margin-right:8rem;
+  width: 24px;
+  padding-top: 13px;
+  border-top-width: 6px;
+  width: 37px;
+  height: 37px;
+}
+.packages .box-container .box .inside{
+  display: flex;
+  flex-direction: row;
+  height: 92px;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.packages .box-container .box .inside .lefty{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: large; 
+}
+.packages .box-container .box .inside img{
+  
+  width: 18px;
+  height: 16px;
+
+}
+.packages .box-container .box .end{
+  display: flex;
+  height: 48px;
+  margin-top: 17px;
+  margin-right: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+  border:1px solid #fff;
+
+}
+.packages .box-container .box .end input{
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+  width: 84px;
+  height: 39px;
+  border-radius: 5px;
+  margin-left: 17px;
+  border:3px solid #fff;
+  background-color: #fff;
+
+
+}
 
   /* photo model */
   
