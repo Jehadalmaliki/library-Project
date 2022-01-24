@@ -261,9 +261,7 @@ flex-direction: column;
   text-align: right;
   margin-right: 1rem;
 }
-.container-catogry .down{
- 
-}
+
 .container-catogry .down .cell{
   border:1px solid rgb(235, 220, 220);
   padding-top: 7px;
@@ -293,6 +291,22 @@ flex-direction: column;
 
 }
 /* left part */
+.forminput{
+  height: 40px;
+  text-align: left;
+
+}
+.forminput input[type=text]{
+  height: 40px;
+  width: 20%;
+  border-radius: 6px;
+  border: 1px solid #333;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+.forminput input[type=text]:focus {
+  width: 40%;
+}
 .packages h1{
   font-size: 3rem;
   text-align: right;
@@ -312,7 +326,9 @@ flex-direction: column;
   gap:.8rem;
   margin-right: 1rem;
 }
-
+.box{
+  display: list-item;    
+ } 
 .packages .box-container .box{
   /* flex:1 1 10rem; */
   border-radius: .5rem;
