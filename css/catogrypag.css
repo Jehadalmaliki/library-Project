@@ -76,7 +76,6 @@
 .item4{
    margin-top: 23px;
   height: 90vh;
-  background-color: #c5cbda;
   
 }
   header{
@@ -136,44 +135,6 @@ nav ul li a{
     /* margin-left: 22px; */
 
 }
-/* ul right */
-.services h2{
-    font-size: 1rem;
-    margin-inline-start:4px;
-    text-align: right;
-    color: chocolate;
-}
-.services ul{
-    
-    width: 200px;
-
-}
- .breadcrumb {
-    padding: 3px 3px;
-    list-style: none;
-    background-color: rgb(218, 59, 165);
-  }
-.breadcrumb li {
-    display: inline;
-   
-  }
-.breadcrumb li a{
-    font-size: 1rem;
-    background-color: chocolate;
-  }
-   .breadcrumb li+li:before {
-    padding: 2px;
-    color: black;
-    content: "/\00a0";
-  }
-.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-  }
-.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-  }
 nav .search{
     
     display: flex;
@@ -247,11 +208,92 @@ nav .search .form i {
     cursor: pointer;
     outline: 0;
     width: 98rem;
-    text-align: left;
-
-
-    
+    text-align: left;   
 }
+/* item4 right */
+.container-catogry{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.container-catogry .right-catogry{
+display: flex;
+flex-direction: column;
+}
+.services{
+  background-color:red;
+}
+.services ul{
+  
+  width: 300px;
+
+}
+.breadcrumb {
+  list-style: none;
+}
+.breadcrumb li {
+  display: inline;
+ 
+}
+.breadcrumb li a{
+  font-size: 1.5rem;
+}
+ .breadcrumb li+li:before {
+  padding: 2px;
+  color: black;
+  content: "/\00a0";
+}
+.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.container-catogry .heading{
+  margin-top: 1rem;
+  border: 1px solid green;
+  border-radius: 5px;
+  font-size: 2rem;
+  color:green;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: right;
+  margin-right: 1rem;
+}
+.container-catogry .down{
+ 
+}
+.container-catogry .down .cell{
+  border:1px solid rgb(235, 220, 220);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: right;
+  margin-right: 1rem;
+  
+}
+.container-catogry .down .a{
+  color: #fff;
+  background-color: green;
+  font-size: 2rem;
+  font-weight: 400px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-right: 12px;
+  margin-top: 1rem;
+  
+}
+.container-catogry .down .b{
+  color: #000;
+  font-size: 2rem;
+  padding-right: 20px;
+  background-color: #dcdee4;
+  border-bottom:1px solid rgb(219, 211, 211);
+
+
+}
+
 /* footer */
 
 .footer{
