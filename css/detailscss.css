@@ -486,3 +486,30 @@ p{
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  /* media */
+  @media (max-width: 768px) {
+    .item4{
+      height: 100%;
+    }
+    .packages .box-container{
+      gap: 2rem;
+     
+    }
+    .product{
+      flex-direction: column;
+      margin-right: 8rem;
+      
+    }
+    .product .boxproduct {
+      width: 300px;
+    }
+    .product .boxproduct img{
+      width: 60%;
+    
+    }
+    .description p{
+      font-size: 1.5rem;
+      color: #666;  
+    }
+  }
