@@ -75,7 +75,7 @@
   }
 .item4{
    margin-top: 23px;
-  height: 90vh;
+  height: auto;
   
 }
   header{
@@ -292,6 +292,87 @@ flex-direction: column;
   border-bottom:1px solid rgb(219, 211, 211);
 
 
+}
+/* left part */
+.packages h1{
+  font-size: 3rem;
+  text-align: right;
+ 
+  }
+  .packages span{
+    font-size: 2rem;
+    text-align: right; 
+    color:red
+    
+    } 
+.packages .box-container{
+  margin-block-end: 2rem;
+  margin-block-start: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  gap:.8rem;
+  margin-right: 1rem;
+}
+
+.packages .box-container .box{
+  /* flex:1 1 10rem; */
+  border-radius: .5rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+ width: 230px;
+}
+.packages .box-container :hover{
+ border: 1px solid red;
+} 
+.packages .box-container .box :hover{
+  border: 0px solid rgb(82, 68, 68);
+}
+.packages .box-container .box img{
+  height: 18rem;
+  width:60%;
+  object-fit: cover;
+}
+
+.packages .box-container .box .content{
+  padding:2rem;
+}
+
+.packages .box-container .box .content h3{
+  font-size:2rem;
+  color:#333;
+}
+
+.packages .box-container .box .content h3 img{ 
+  width: 24px;
+  height: 19px;
+}
+
+.packages .box-container .box .content p{
+  font-size:1.7rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.packages .box-container .box .content .price{
+  font-size: 2rem;
+  color:rgb(236, 38, 38);
+  padding-top: 1rem;
+}
+
+.packages .box-container .box .content .price span{
+  color:rgb(236, 38, 38);;
+  font-size: 1.5rem;
+ 
+}
+.packages .box-container .box .content .btn{
+  display: flex;
+  margin-top: 10px;
+}
+.packages .box-container .box .content a img{
+  /* justify-content: space-around; */
+  margin-right: 2rem;
+  margin-left: 2rem;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 /* footer */
