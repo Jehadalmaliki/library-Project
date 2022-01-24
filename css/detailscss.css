@@ -313,7 +313,39 @@ ul.breadcrumb {
   font-weight: 300px;
   
 }
-
+/* منتجات مشابهةproduct */
+.product{
+  display: flex;
+  flex-direction: row;
+  margin: 4rem;
+  gap: 2rem;
+}
+.product .boxproduct{
+  display: block;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.4);
+  border-radius: 4px;
+}
+.product .boxproduct img{
+  width: 60%;
+  object-fit: cover;
+}
+.product .boxproduct .contentproduct{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product .boxproduct .contentproduct .down{
+  color:red;
+  font-weight: 300px;
+  font-size: 1.5rem;
+}
+.product .boxproduct .contentproduct .up{
+height: 88px;
+}
+p{
+  text-align: right;
+  font-size: 3rem;
+}
   /* photo model */
   
 * {
