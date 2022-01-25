@@ -173,6 +173,7 @@ nav .search .icon{
     margin-right: 30px;
     padding-top: 25px;
    padding-right: 81px;
+   position: relative;
   
 }
 nav .search .icon img{
@@ -209,6 +210,17 @@ nav .search .form i {
 
 
     
+}
+nav .icon a .span{
+  height: 27px;
+  width: 33px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+  position: absolute;
+ top:4px;
+ left:0px;
+ font-size: 2rem;
 }
 /* footer */
 
