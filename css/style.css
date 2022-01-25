@@ -103,10 +103,10 @@
 ul li{
   
   /* flex: 1; */
-  font-family: 'Tajawal', 'Poppins', 'Work Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #273444;
+    font-family: 'Tajawal', 'Poppins', 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #273444;
     list-style: none;
     text-align: center;
     padding: 10px 0px;

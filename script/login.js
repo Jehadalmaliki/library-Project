@@ -36,6 +36,7 @@ var span2 = document.getElementsByClassName("close2")[0];
 // When the user clicks the button, open the modal 
 btn2.onclick = function() {
   modal2.style.display = "block";
+  modal.style.display = "none";
 }
 
 // When the user clicks on <span> (x), close the modal

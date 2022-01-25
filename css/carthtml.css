@@ -66,12 +66,23 @@ section{
     margin-right: 74px;
     line-height: 1px;
     background-color: snow;
+    display: flex;
+    
 
 }
-.continer-box .boxes .box1 .border h1{
+.continer-box .boxes .box1 .border .heading1 h1{
     color:#000;
    font-size: 1rem;
    font-weight: 3rem;
+}
+.continer-box .boxes .box1 .border .form input{
+    text-align: left;
+    width: 40px;
+    margin-right: 6.5rem;
+
+}
+.continer-box .boxes h2{
+    border:0.1rem solid rgb(241, 238, 238);
 }
 .continer-box .checkout{
    
@@ -110,6 +121,7 @@ section{
 .continer-box .checkout .continer .div1 p{
     font-size: 1.3rem;
     color:red;
+    font-weight: 500px;
   }
   .continer-box .checkout .continer .div1 span{
     font-size: 0.7rem;
@@ -165,4 +177,10 @@ section{
    color:rgb(241, 238, 238);
    font-weight: 100px;
 
+}
+
+@media (max-width: 768px) {
+    .continer-box{
+        flex-direction: column;
+    margin-bottom: 3rem; } 
 }
