@@ -1,20 +1,20 @@
-<!DOCTYPE html>
-<html  lang="ar" dir="rtl">
+<html >
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookStore</title>
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
+    <title>Book store</title>
+     <!-- font awesome cdn link  -->
+    
+    <link rel="stylesheet" href="css/styleAR.css">
     <link rel="stylesheet" href="css/homestyle.css">
     <link rel="stylesheet" href="css/catagorystyle.css">
     <link rel="stylesheet" href="css/packagestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
 </head>
+
 <body>
-   
     <div class="grid-container">
         <header class="item1">
           <div id="menu-icon" class="fas fa-bars"></div>
@@ -28,7 +28,7 @@
                     <li><a ><img src="img\svg\svgexport-5.svg">المساعدة</a></li>
                     <li><a ><img src="img\svg\svgexport-24.svg">صحيفة الاسبوعية</a></li>
                     <li><a ><img src="img\svg\svgexport-28.svg">اليمن</a></li>
-                    <li><a  ><img src="img\svg\svgexport-14.svg">English</a></li>    
+                    <li><a  ><img src="img\svg\svgexport-14.svg" onclick="togglestyle()">English</a></li>    
                 </ul>
             </div>
              
@@ -144,19 +144,19 @@
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="img/sliderImgs/slider_img.webp" style="width:100%">
-            <div class="text">Caption Text</div>
+            <div class="text"></div>
           </div>
           
           <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
             <img src="img/sliderImgs/slider_img2.webp" style="width:100%">
-            <div class="text">Caption Two</div>
+            <div class="text"></div>
           </div>
           
           <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
             <img src="img/sliderImgs/slider_img3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="text"></div>
           </div>
           
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -559,13 +559,15 @@
                     </div>
                 </div>
           </section>
-      
-  <script>
-
-  </script>        
+   
+   
+    
+          <script src="script/cartcount.js"></script>
+          <script src="script/script.js"></script>
+          <script src="script/login.js"></script>
+          <script src="script/slider.js"></script>
+          <script src="script/ChangLan.js"></script> 
+    
 </body>
-<script src="script/cartcount.js"></script>
-<script src="script/script.js"></script>
-<script src="script/login.js"></script>
-<script src="script/slider.js"></script>
+
 </html>
