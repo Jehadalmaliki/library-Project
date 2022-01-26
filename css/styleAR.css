@@ -65,6 +65,7 @@ body{
   }
   .item1{
     padding-top: 0px;
+    
   }
   .item2{
     
@@ -256,13 +257,22 @@ nav .icon a .span{
     background-color: #484848;
     border-radius: 2px;
     display: block;
+    position: relative;
   }
   .footer .box-container .box .form input[type="email"]{
     border-radius: 6px;
     padding: 15px;
     width: 90%;
-    cursor: pointer;
-   float: left;
+    cursor: pointer;  
+    float: left;
+  }
+  .footer .box-container .box .form i{
+    font-size: 2rem;
+    color: #6f7174;
+    position: absolute;
+    right: 17rem;
+    top:4rem;
+
   }
   .footer .box-container .box .form button{
    border-radius: 6px;
