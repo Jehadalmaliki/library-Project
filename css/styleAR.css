@@ -700,21 +700,7 @@ nav .search .form input{
 nav .search .form button {
  width: 220px; 
 }
-.item3{ 
-  width: auto;
-  height: 220px;
-  margin-bottom: 60px;
-}
-.item3 .slider-container{
-  width: 424px;
-}
-.item3 .slider-container .slider{
-  
-  width: 424px;
-}
-.item3 .slider-container .slider .slides{ 
-  width: 424px;
-}
+
 
 .footer .box-container{
   width: 500px;
