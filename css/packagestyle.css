@@ -1,7 +1,7 @@
 /*package*/
 .packages{
    
-    margin-block-end: 3rem;
+    margin-block-end: 6rem;
     margin-block-start: 3rem;
 }
 
@@ -14,20 +14,29 @@ display: list-item;
     text-align: right;
    
     }
+    #go{
+      float: left;
+      margin-top: 2rem;
+      margin-left: 5rem;
+      text-decoration: underline;
+      line-height: normal;
+      
+    }
     
 .packages span{
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: right; 
-        color:red
+        color:rgb(204, 16, 16);
+        
+        
         
         }  
 .packages .box-container{
-    /* margin-block-end: 3rem;
-    margin-block-start: 3rem; */
+  
     margin: 0 auto;
     display: flex;
     flex-wrap: nowrap;
-    gap:1rem;
+    gap:2rem;
     width: 90vw;
   }
   
@@ -36,18 +45,18 @@ display: list-item;
     border-radius: .5rem;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
     max-width: 250px;
-    min-width: 100px;
+    min-width: 100px;  
     
   }
   .packages .box-container :hover{
-   border: 1px solid red;
+   border: 8px solid red;
   } 
   .packages .box-container .box :hover{
     border: 0px solid rgb(82, 68, 68);
   }
   .packages .box-container .box img{
     height: 20rem;
-    width:50%;
+    width:80%;
     object-fit: cover;
   }
   
@@ -79,7 +88,7 @@ display: list-item;
   
   .packages .box-container .box .content .price span{
     color:rgb(236, 38, 38);;
-    font-size: 1.5rem;
+    font-size: 1rem;
    
   }
   .packages .box-container .box .content .btn{
@@ -88,8 +97,8 @@ display: list-item;
 }
   .packages .box-container .box .content a img{
     /* justify-content: space-around; */
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
     height: 3.5rem;
     width: 3.5rem;
 }

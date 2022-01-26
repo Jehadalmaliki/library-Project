@@ -17,7 +17,7 @@ window.onscroll = () =>{
 
 //time cutdown
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 21, 2022 15:37:25").getTime();
+var countDownDate = new Date("Jan 29, 2022 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -35,13 +35,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + "يوم " + hours + "ساعة "
+  + minutes + "دقيقة " + seconds + "ثانية ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "";
   }
 }, 1000);	
 
@@ -65,8 +65,8 @@ var x1 = setInterval(function() {
   var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo1").innerHTML = days1 + "d " + hours1 + "h "
-  + minutes1 + "m " + seconds1 + "s ";
+  document.getElementById("demo1").innerHTML = days1 + "يوم " + hours1 + "ساعة "
+  + minutes1 + "دقيقة " + seconds1 + "ثانية ";
 
   // If the count down is finished, write some text
   if (distance1 < 0) {
@@ -95,8 +95,8 @@ var x2 = setInterval(function() {
   var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo2").innerHTML = days2 + "d " + hours2 + "h "
-  + minutes2 + "m " + seconds2 + "s ";
+  document.getElementById("demo2").innerHTML = days2 + "يوم " + hours2 + "ساعة "
+  + minutes2 + "دقيقة " + seconds2 + "ثانية ";
 
   // If the count down is finished, write some text
   if (distance2 < 0) {
@@ -125,18 +125,18 @@ var x3 = setInterval(function() {
   var seconds3 = Math.floor((distance3 % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo3").innerHTML = days3 + "d " + hours3 + "h "
-  + minutes3 + "m " + seconds3 + "s ";
+  document.getElementById("demo3").innerHTML = days3 + "يوم " + hours3 + "ساعة "
+  + minutes3 + "دقيقة " + seconds3 + "ثانية ";
 
   // If the count down is finished, write some text
   if (distance3 < 0) {
     clearInterval(x3);
-    document.getElementById("demo3").innerHTML = "EXPIRED";
+    document.getElementById("demo3").innerHTML = "";
   }
 }, 1000);
 //time cutdown3
 // Set the date we're counting down to
-var countDownDate4 = new Date("Jan 25, 2022 15:37:25").getTime();
+var countDownDate4 = new Date("Jan 30, 2022 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x4 = setInterval(function() {
@@ -154,13 +154,13 @@ var x4 = setInterval(function() {
   var seconds4 = Math.floor((distance4 % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo4").innerHTML = days4 + "d " + hours4 + "h "
-  + minutes4 + "m " + seconds4 + "s ";
+  document.getElementById("demo4").innerHTML = days4 + "يوم " + hours4 + "ساعة "
+  + minutes4 + "دقيقة " + seconds4 + "ثانية ";
 
   // If the count down is finished, write some text
   if (distance4 < 0) {
     clearInterval(x4);
-    document.getElementById("demo4").innerHTML = "EXPIRED";
+    document.getElementById("demo4").innerHTML = "";
   }
 }, 1000);
 // photo model
