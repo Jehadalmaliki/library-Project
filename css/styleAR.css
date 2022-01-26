@@ -26,9 +26,11 @@
   html{
     margin:0; padding:0;
     font-size: 62.5%;
-    overflow-x:hidden;
+     overflow-x:hidden;
     scroll-padding-top: 6rem;
-}
+} 
+
+
 body{
   text-align: right;
   direction: rtl;
@@ -615,6 +617,7 @@ nav .icon a .span{
    margin-top: 25px;
 
   }
+ 
   ul {
     position: absolute;
     top: 20%;
@@ -719,4 +722,109 @@ nav .search .form button {
   flex-direction: column;
  
  }
+}
+
+@media (max-width: 375px) {
+
+
+  #menu-icon {
+    display: initial;
+    color: black;
+   position: fixed;
+   background-color: #eee;
+   margin-top: 10px;
+
+  }
+  ul {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(247, 247, 247);
+    clip-path: polygon(0 0, 50% 0, 50% 0, 0 0);
+    transition: 0.5s ease;
+  }
+ 
+  ul.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    height: max-content;
+  }
+  ul li  {
+    width: 20%;
+    margin-right: .3rem;
+    /* padding: 0.6rem; */ 
+  }
+  ul li a {
+    width: 100%;
+    margin-right: .3rem;
+    /* padding: 0.6rem; */
+    display: block;
+    background: #d7d8df;
+    border: 2px solid #eee;
+  }
+/*search  */
+nav .search{
+  display:flex;
+ justify-self: normal;
+  width: 100px;
+  padding-top: 0px;
+  margin-right: 20px;
+  padding-right: 0px;
+  
+}
+
+nav .search .form{
+padding-bottom: 1px;
+padding-top: 1px;
+position: relative;
+width: 50px;
+}
+nav .search .icon1 img{
+
+height: 40px;
+padding-top: 0px;
+margin-top: 15px;
+margin-left: 14px;
+
+}
+nav .search .icon{
+  font-size: 1rem;
+  margin-left: 0px;
+  padding-right: 100px;
+}
+nav .search .icon img{
+background-color: #cdcfd4;
+border-radius: 50%;
+ 
+margin-right: 3px;
+padding-top: 2px;
+padding-right: 8px;
+}
+nav .search .form input{
+ width: 150px;
+  margin-right: 6px;
+  border-right-width: 1px;
+  margin-left: 15px;
+
+}
+nav .search .form button {
+ width: 220px; 
+}
+.footer .box-container{
+  width: 325px;
+
+}
+.footer .box-container1{
+  width: 325px;
+
+
+}
+.footer .box-container2{
+  width: 325px;
+
+}
+
 }
