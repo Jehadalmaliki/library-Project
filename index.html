@@ -139,40 +139,40 @@
          <!--  log in end-->
          <!-- section home start homestyle.css -->
          <section class="item3">
-            <div class="slider-container">
-                <div class="slider">
-                  <div class="slides">
-                    <div id="slides__1" class="slide">
-                      <span class="slide__text"><img src="img/sliderImgs/slider_img.webp"  height=" 300px;" width=" 1000px"></span>
-                      <a class="slide__prev" href="#slides__4" title="Next"></a>
-                      <a class="slide__next" href="#slides__2" title="Next"></a>
-                    </div>
-                    <div id="slides__2" class="slide">
-                      <span class="slide__text"><img src="img/sliderImgs/slider_img2.webp" height=" 300px;" width=" 1000px"></span>
-                      <a class="slide__prev" href="#slides__1" title="Prev"></a>
-                      <a class="slide__next" href="#slides__3" title="Next"></a>
-                    </div>
-                    <div id="slides__3" class="slide">
-                      <span class="slide__text"><img src="img/sliderImgs/slider_img3.jpg" height=" 300px;" width=" 1000px"></span>
-                      <a class="slide__prev" href="#slides__2" title="Prev"></a>
-                      <a class="slide__next" href="#slides__4" title="Next"></a>
-                    </div>
-                    <div id="slides__4" class="slide">
-                        <span class="slide__text"><img src="img/sliderImgs/slider_img4.webp" height=" 300px;" width=" 1000px"></span>
-                      <a class="slide__prev" href="#slides__3" title="Prev"></a>
-                      <a class="slide__next" href="#slides__1" title="Prev"></a>
-                    </div>
-                  </div>
-                  <div class="slider__nav">
-                    <a class="slider__navlink" href="#slides__1"></a>
-                    <a class="slider__navlink" href="#slides__2"></a>
-                    <a class="slider__navlink" href="#slides__3"></a>
-                    <a class="slider__navlink" href="#slides__4"></a>
-                  </div>
-                </div>
-              </div>
-            
-         </section> 
+          <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/sliderImgs/slider_img.webp" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/sliderImgs/slider_img2.webp" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/sliderImgs/slider_img3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          
+              </section>
+         
           <!--home end  -->
           <!-- catagory section start /catagorystyle.css -->
           <section class="item4">
@@ -567,4 +567,5 @@
 <script src="script/cartcount.js"></script>
 <script src="script/script.js"></script>
 <script src="script/login.js"></script>
+<script src="script/slider.js"></script>
 </html>
