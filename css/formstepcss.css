@@ -9,6 +9,12 @@
 *::after {
   box-sizing: border-box;
 }
+.grid-container > section {
+  padding-top: 0px;
+  text-align: right;
+  padding: 10px 0;
+ 
+}
 
 body {
   font-family: 'Tajawal', 'Poppins', 'Work Sans', sans-serif;
@@ -18,12 +24,12 @@ body {
   min-height: 100vh;
 }
 /* Global Stylings */
-label {
+ .form .form-step .input-group label {
   display: block;
   margin-bottom: 0.5rem;
 }
 
-input {
+ .form .form-step .input-group input {
   display: block;
   width: 100%;
   padding: 0.75rem;
@@ -52,8 +58,8 @@ input {
   margin: 2rem 0 4rem;
 }
 
-.progressbar::before,
-.progress {
+ .progressbar::before,
+ .progressbar .progress {
   content: "";
   position: absolute;
   top: 50%;
@@ -64,13 +70,13 @@ input {
   z-index: -1;
 }
 
-.progress {
+ .progress {
   background-color: var(--primary-color);
   width: 0%;
   transition: 0.3s;
 }
 
-.progress-step {
+ .progress-step {
   width: 2.1875rem;
   height: 2.1875rem;
   background-color: #dcdcdc;
@@ -78,14 +84,17 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
+  
 }
+
 
 .progress-step::before {
   counter-increment: step;
   content: counter(step);
 }
 
-.progress-step::after {
+ .progress-step::after {
   content: attr(data-title);
   position: absolute;
   top: calc(100% + 0.5rem);
@@ -93,13 +102,13 @@ input {
   color: #666;
 }
 
-.progress-step-active {
+ .progress-step-active {
   background-color: var(--primary-color);
   color: #f3f3f3;
 }
 
 /* Form */
-.form {
+.item2 .form {
   width: clamp(320px, 30%, 430px);
   margin: 0 auto;
   border: 1px solid #ccc;
@@ -107,7 +116,7 @@ input {
   padding: 1.5rem;
 }
 
-.form-step {
+ .form-step {
   display: none;
   transform-origin: top;
   animation: animate 0.5s;
