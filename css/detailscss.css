@@ -416,7 +416,7 @@ p{
     cursor: pointer;
   }
   
-  .mySlides {
+  .mySlides1 {
     display: none;
   }
   
@@ -433,7 +433,7 @@ p{
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: rgb(204, 25, 25);
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -445,6 +445,10 @@ p{
   /* Position the "next button" to the right */
   .next6 {
     right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev6 {
+    left: 0;
     border-radius: 3px 0 0 3px;
   }
   
