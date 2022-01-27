@@ -111,5 +111,14 @@ display: list-item;
     width: 900px;
     margin-right: 10rem;
   }
+  @media (max-width: 375px) {
+  .packages h1 {
+    font-size: 2rem;}
+}
+.packages .box-container{
   
+  width: 370px;
+  margin-right: 50px;
+
+}
 }
