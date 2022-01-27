@@ -770,7 +770,7 @@ nav .search .form button {
 nav .search{
   display:flex;
  justify-self: normal;
-  width: 100px;
+  width: 110px;
   padding-top: 0px;
   margin-right: 20px;
   padding-right: 0px;
@@ -781,7 +781,7 @@ nav .search .form{
 padding-bottom: 1px;
 padding-top: 1px;
 position: relative;
-width: 50px;
+width: 80px;
 }
 nav .search .icon1 img{
 
@@ -815,16 +815,22 @@ nav .search .form button {
  width: 220px; 
 }
 .footer .box-container{
-  width: 325px;
+  
+  width: 375px;
+
 
 }
 .footer .box-container1{
-  width: 325px;
+  
+  width: 375px;
+
 
 
 }
 .footer .box-container2{
-  width: 325px;
+  
+  width: 375px;
+
 
 }
 
